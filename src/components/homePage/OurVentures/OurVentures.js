@@ -19,13 +19,7 @@ const OurVentures = () => {
                   Our <span>Ventures</span>
                 </h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industries
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
+                At Soft IT Care Ventures, we are on a mission to catalyze innovation, empower visionaries, and shape the future. Our venture arm is the heartbeat of groundbreaking ideas, where we embrace the spirit of entrepreneurs, businessman & massive people and fuel the journey of promising ventures.
                 </p>
                 <Button btnName="Learn More" btnLink="" />
 
