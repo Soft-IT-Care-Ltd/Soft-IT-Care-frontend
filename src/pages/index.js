@@ -37,13 +37,13 @@ export default function Home() {
       {/*  ===================================
       HomeGallery 
       ======================================== */}
-      {/*<HomeGallery />*/}
+      <HomeGallery />
 
       <div className="section__gaps"></div>
       {/*  ===================================
       WhyCustomer 
       ======================================== */}
-      {/*<WhyCustomer />*/}
+      <WhyCustomer />
 
       <div className="section__gaps"></div>
       {/*  ===================================
