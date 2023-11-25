@@ -13,7 +13,7 @@ const AboutUs = () => {
             <Col lg={6}>
               <div className="home__about__img">
                 <Image
-                  src="/images/about-us.webp"
+                  src="/images/about_us.jpeg"
                   width={750}
                   height={450}
                   alt="about-img"
