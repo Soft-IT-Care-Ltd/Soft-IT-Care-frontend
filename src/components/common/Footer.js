@@ -1,0 +1,137 @@
+import Call from "@/Svgs/Call";
+import Facebook from "@/Svgs/Facebook";
+import FooterLogo from "@/Svgs/FooterLogo";
+import Instagram from "@/Svgs/Instagram";
+import Linkdin from "@/Svgs/Linkdin";
+import Location from "@/Svgs/Location";
+import Sms from "@/Svgs/Sms";
+import Twitter from "@/Svgs/Twitter";
+import Link from "next/link";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { BsArrowReturnRight } from "react-icons/bs";
+
+const Footer = () => {
+  return (
+    <>
+      <section className="footer">
+        <Container>
+          <div className="footer__content">
+            <Row>
+              <Col lg={4}>
+                <div className="footer__logo">
+                  <FooterLogo />
+                </div>
+                <h4>Follow us</h4>
+                <div className="social__icons">
+                  <Link href="">
+                    <Facebook />
+                  </Link>
+                  <Link href="">
+                    <Twitter />
+                  </Link>
+                  <Link href="">
+                    <Instagram />
+                  </Link>
+                  <Link href="">
+                    <Linkdin />
+                  </Link>
+                </div>
+              </Col>
+              <Col lg={8}>
+                <Row>
+                  <Col sm={3} lg={3}>
+                    <h4> Pages </h4>
+                    <ul className="footer__link">
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Our Brands
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Contact Us
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Career
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Blog
+                        </Link>
+                      </li>
+                    </ul>
+                  </Col>
+                  <Col sm={3} lg={3}>
+                    <h4> Terms </h4>
+                    <ul className="footer__link">
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Privacy Policy
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Site Map
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <BsArrowReturnRight /> Terms & Conditions
+                        </Link>
+                      </li>
+                    </ul>
+                  </Col>
+                  <Col sm={6} lg={6}>
+                    <h4> Contact Us </h4>
+                    <ul className="footer__link">
+                      <li>
+                        <Link href="tel:01799733234">
+                          <Call /> +8801799733234
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="">
+                          <Sms /> contact@softitcare.com
+                        </Link>
+                      </li>
+                      <li>
+                        <p>
+                          <Location /> SAR Bhaban, Level-5 , Ka-78, Progoti
+                          Sarani, Kuril, Vatara, Dhaka-1229, Bangladesh
+                        </p>
+                      </li>
+                    </ul>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </div>
+        </Container>
+      </section>
+
+      <section className="tiny__footer">
+        <Container>
+          <Row>
+            <Col lg={12}>
+              <p>
+                © Copyright 2016 - 2023 All Rights Reserved | Designed by
+                <Link href="">Soft IT Care</Link> Development Team
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </>
+  );
+};
+
+export default Footer;
