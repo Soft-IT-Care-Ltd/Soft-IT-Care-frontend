@@ -105,8 +105,8 @@ const Footer = () => {
                       </li>
                       <li>
                         <p>
-                          <Location /> SAR Bhaban, Level-5 , Ka-78, Progoti
-                          Sarani, Kuril, Vatara, Dhaka-1229, Bangladesh
+                          <Location /> House No # 17, Road No # 8/A, Nikunja #1,
+                          Dhaka - 1229, Bangladesh
                         </p>
                       </li>
                     </ul>
