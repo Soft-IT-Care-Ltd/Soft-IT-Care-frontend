@@ -101,6 +101,36 @@ export const ImageData3 = [
 
 export const ImageData4 = [
   {
+    image: "/images/gallery/31.jpg",
+  },
+  {
+    image: "/images/gallery/32.jpg",
+  },
+  {
+    image: "/images/gallery/33.jpg",
+  },
+  {
+    image: "/images/gallery/34.jpg",
+  },
+  {
+    image: "/images/gallery/35.jpg",
+  },
+  {
+    image: "/images/gallery/36.jpg",
+  },
+  {
+    image: "/images/gallery/37.jpg",
+  },
+  {
+    image: "/images/gallery/38.jpg",
+  },
+  {
+    image: "/images/gallery/39.jpg",
+  },
+  {
+    image: "/images/gallery/40.jpg",
+  },
+  {
     image: "/images/gallery/41.jpg",
   },
   {
