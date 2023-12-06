@@ -226,7 +226,7 @@ Start menubar
   z-index: 99;
 }
 
-.mobile__menu{
+.mobile__menu {
   display: none;
 }
 
@@ -279,7 +279,7 @@ Start home__banner
   height: 100%;
 }
 
-.home__banner video{
+.home__banner video {
   width: 100%;
 }
 
@@ -734,6 +734,8 @@ Start home__gallery
 .home__gallery__item img {
   width: 100%;
   border-radius: 15px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .home__gallery__tabs .row {
@@ -894,10 +896,11 @@ Start footer
 
 .footer__link li p {
   align-items: flex-start;
+  font-size: 15px;
 }
 
 .footer__link li p svg {
-  width: 15%;
+  width: 10%;
 }
 
 .footer__link li a:hover {

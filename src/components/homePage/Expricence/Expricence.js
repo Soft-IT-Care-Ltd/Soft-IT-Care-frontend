@@ -21,15 +21,15 @@ const Expricence = () => {
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>550+</h4>
-                  <p>Happy Clients</p>
+                  <h4>3</h4>
+                  <p>Office</p>
                 </div>
                 <div className="home__exprience__item__bdr">
                   <img src="/images/shaps/bdr.png" alt="bdr" />
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>3 +</h4>
+                  <h4>4 +</h4>
                   <p>Experience</p>
                 </div>
                 <div className="home__exprience__item__bdr">
@@ -37,8 +37,8 @@ const Expricence = () => {
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>850</h4>
-                  <p>Project Finished</p>
+                  <h4>7000</h4>
+                  <p>Happy Clients</p>
                 </div>
                 <div className="home__exprience__item__bdr">
                   <img src="/images/shaps/bdr.png" alt="bdr" />

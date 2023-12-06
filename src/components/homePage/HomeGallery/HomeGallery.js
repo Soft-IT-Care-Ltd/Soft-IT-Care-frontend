@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import { Data } from "./Data";
+import { ImageData1, ImageData2, ImageData3, ImageData4 } from "./Data";
 
 const HomeGallery = () => {
   return (
@@ -24,7 +24,7 @@ const HomeGallery = () => {
                   >
                     <Tab eventKey="office" title="Office Party">
                       <Row>
-                        {Data?.map((data, i) => (
+                        {ImageData1?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="gallery" />
@@ -35,7 +35,7 @@ const HomeGallery = () => {
                     </Tab>
                     <Tab eventKey="annual" title="Annual Tour">
                       <Row>
-                        {Data?.map((data, i) => (
+                        {ImageData2?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="gallery" />
@@ -46,7 +46,7 @@ const HomeGallery = () => {
                     </Tab>
                     <Tab eventKey="birthday" title="Birthday">
                       <Row>
-                        {Data?.map((data, i) => (
+                        {ImageData3?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="" />
@@ -57,7 +57,7 @@ const HomeGallery = () => {
                     </Tab>
                     <Tab eventKey="fun" title="Fun Time">
                       <Row>
-                        {Data?.map((data, i) => (
+                        {ImageData4?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="" />
