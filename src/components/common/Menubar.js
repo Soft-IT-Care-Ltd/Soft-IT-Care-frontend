@@ -14,23 +14,23 @@ const menuItem = [
     },
     {
         name: "About Us",
-        url: "/about",
+        url: "#about",
     },
     {
-        name: "Sister Concern",
-        url: "/sister-concern",
+        name: "Our Associates",
+        url: "#sister-concern",
     },
     {
         name: "Life at SITC",
-        url: "/life-sitc",
+        url: "#life-sitc",
     },
     {
         name: "Careers",
-        url: "/career",
+        url: "#career",
     },
     {
         name: "Contact",
-        url: "/contact",
+        url: "#contact",
     },
 ];
 
