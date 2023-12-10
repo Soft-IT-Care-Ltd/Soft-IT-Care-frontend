@@ -51,12 +51,14 @@ const Menubar = () => {
                             <div className="menubar__content d_flex d_justify">
                                 {/* logo */}
                                 <div className="menubar__logo">
-                                    <Image
-                                        src="/images/logo.webp"
-                                        height={60}
-                                        width={140}
-                                        alt="logo"
-                                    />
+                                    <Link href='/'>
+                                        <Image
+                                            src="/images/logo.webp"
+                                            height={60}
+                                            width={140}
+                                            alt="logo"
+                                        />
+                                    </Link>
                                 </div>
                                 {/* item */}
                                 <div className="menu__item">
