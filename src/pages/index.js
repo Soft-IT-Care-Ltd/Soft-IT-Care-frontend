@@ -26,7 +26,7 @@ export default function Home() {
       {/*  ===================================
       Expricence 
       ======================================== */}
-      {/*<Expricence />*/}
+      <Expricence />
 
       <div className="section__gaps"></div>
       {/*  ===================================

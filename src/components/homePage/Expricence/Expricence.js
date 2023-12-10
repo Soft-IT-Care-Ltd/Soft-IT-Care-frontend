@@ -45,7 +45,7 @@ const Expricence = () => {
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>47</h4>
+                  <h4>50</h4>
                   <p>Team Members</p>
                 </div>
               </div>
