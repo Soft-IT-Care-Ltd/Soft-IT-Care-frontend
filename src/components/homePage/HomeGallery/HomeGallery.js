@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import { ImageData1, ImageData2, ImageData3, ImageData4 } from "./Data";
+import { AnnulTour, FunTime, ImageData1, ImageData2, ImageData3, ImageData4, MeetingTime, OfficeActivities, Program } from "./Data";
 
 const HomeGallery = () => {
   return (
@@ -22,9 +22,20 @@ const HomeGallery = () => {
                     id="uncontrolled-tab-example"
                     className="mb-3"
                   >
-                    <Tab eventKey="office" title="Office Party">
+                    <Tab eventKey="office" title="Office Activities">
                       <Row>
-                        {ImageData1?.map((data, i) => (
+                        {OfficeActivities?.map((data, i) => (
+                          <Col sm={6} lg={4} key={i}>
+                            <div className="home__gallery__item">
+                              <img src={data.image} alt="gallery" />
+                            </div>
+                          </Col>
+                        ))}
+                      </Row>
+                    </Tab>
+                    <Tab eventKey="Meeting" title="Meeting Time">
+                      <Row>
+                        {MeetingTime?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="gallery" />
@@ -35,7 +46,7 @@ const HomeGallery = () => {
                     </Tab>
                     <Tab eventKey="annual" title="Annual Tour">
                       <Row>
-                        {ImageData2?.map((data, i) => (
+                        {AnnulTour?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="gallery" />
@@ -44,9 +55,9 @@ const HomeGallery = () => {
                         ))}
                       </Row>
                     </Tab>
-                    <Tab eventKey="birthday" title="Birthday">
+                    <Tab eventKey="program" title="Program">
                       <Row>
-                        {ImageData3?.map((data, i) => (
+                        {Program?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="" />
@@ -57,7 +68,7 @@ const HomeGallery = () => {
                     </Tab>
                     <Tab eventKey="fun" title="Fun Time">
                       <Row>
-                        {ImageData4?.map((data, i) => (
+                        {FunTime?.map((data, i) => (
                           <Col sm={6} lg={4} key={i}>
                             <div className="home__gallery__item">
                               <img src={data.image} alt="" />
@@ -66,6 +77,7 @@ const HomeGallery = () => {
                         ))}
                       </Row>
                     </Tab>
+                    
                   </Tabs>
                 </div>
               </div>

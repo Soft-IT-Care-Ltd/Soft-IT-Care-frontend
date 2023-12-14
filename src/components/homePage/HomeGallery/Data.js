@@ -1,145 +1,136 @@
 
 
-export const ImageData1 = [
+export const OfficeActivities = [
   {
-    image: "/images/gallery/1.jpg",
+    image: "/images/gallery/office-activities/1.jpg",
   },
   {
-    image: "/images/gallery/2.jpg",
+    image: "/images/gallery/office-activities/2.jpg",
   },
   {
-    image: "/images/gallery/3.jpg",
+    image: "/images/gallery/office-activities/3.jpg",
   },
   {
-    image: "/images/gallery/4.jpg",
+    image: "/images/gallery/office-activities/4.jpg",
   },
   {
-    image: "/images/gallery/5.jpg",
+    image: "/images/gallery/office-activities/5.jpg",
   },
   {
-    image: "/images/gallery/6.jpg",
+    image: "/images/gallery/office-activities/6.jpg",
   },
   {
-    image: "/images/gallery/7.jpg",
+    image: "/images/gallery/office-activities/7.jpg",
   },
   {
-    image: "/images/gallery/8.jpg",
+    image: "/images/gallery/office-activities/8.jpg",
   },
   {
-    image: "/images/gallery/9.jpg",
+    image: "/images/gallery/office-activities/9.jpg",
   },
   {
-    image: "/images/gallery/10.jpg",
-  },
-];
-
-export const ImageData2 = [
-  {
-    image: "/images/gallery/11.jpg",
+    image: "/images/gallery/office-activities/10.jpg",
   },
   {
-    image: "/images/gallery/12.jpg",
+    image: "/images/gallery/office-activities/11.jpg",
   },
   {
-    image: "/images/gallery/13.jpg",
+    image: "/images/gallery/office-activities/12.jpg",
   },
   {
-    image: "/images/gallery/14.jpg",
+    image: "/images/gallery/office-activities/13.jpg",
   },
   {
-    image: "/images/gallery/15.jpg",
+    image: "/images/gallery/office-activities/14.jpg",
   },
   {
-    image: "/images/gallery/16.jpg",
+    image: "/images/gallery/office-activities/15.jpg",
   },
   {
-    image: "/images/gallery/17.jpg",
-  },
-  {
-    image: "/images/gallery/18.jpg",
-  },
-  {
-    image: "/images/gallery/19.jpg",
-  },
-  {
-    image: "/images/gallery/20.jpg",
+    image: "/images/gallery/office-activities/16.jpg",
   },
 ];
 
-export const ImageData3 = [
+export const MeetingTime = [
   {
-    image: "/images/gallery/21.jpg",
+    image: "/images/gallery/meeting/1.jpg",
   },
   {
-    image: "/images/gallery/22.jpg",
-  },
-  {
-    image: "/images/gallery/23.jpg",
-  },
-  {
-    image: "/images/gallery/24.jpg",
-  },
-  {
-    image: "/images/gallery/25.jpg",
-  },
-  {
-    image: "/images/gallery/26.jpg",
-  },
-  {
-    image: "/images/gallery/27.jpg",
-  },
-  {
-    image: "/images/gallery/28.jpg",
-  },
-  {
-    image: "/images/gallery/29.jpg",
-  },
-  {
-    image: "/images/gallery/30.jpg",
+    image: "/images/gallery/meeting/2.jpg",
   },
 ];
 
-export const ImageData4 = [
+export const AnnulTour = [
   {
-    image: "/images/gallery/31.jpg",
+    image: "/images/gallery/annual-tour/1.jpg",
   },
   {
-    image: "/images/gallery/32.jpg",
+    image: "/images/gallery/annual-tour/2.jpg",
   },
   {
-    image: "/images/gallery/33.jpg",
+    image: "/images/gallery/annual-tour/3.jpg",
   },
   {
-    image: "/images/gallery/34.jpg",
+    image: "/images/gallery/annual-tour/4.jpg",
+  },
+];
+
+export const Program = [
+  {
+    image: "/images/gallery/program/1.jpg",
   },
   {
-    image: "/images/gallery/35.jpg",
+    image: "/images/gallery/program/2.jpg",
   },
   {
-    image: "/images/gallery/36.jpg",
+    image: "/images/gallery/program/3.jpg",
   },
   {
-    image: "/images/gallery/37.jpg",
+    image: "/images/gallery/program/4.jpg",
   },
   {
-    image: "/images/gallery/38.jpg",
+    image: "/images/gallery/program/5.jpg",
   },
   {
-    image: "/images/gallery/39.jpg",
+    image: "/images/gallery/program/6.jpg",
   },
   {
-    image: "/images/gallery/40.jpg",
+    image: "/images/gallery/program/7.jpg",
   },
   {
-    image: "/images/gallery/41.jpg",
+    image: "/images/gallery/program/8.jpg",
   },
   {
-    image: "/images/gallery/42.jpg",
+    image: "/images/gallery/program/9.jpg",
   },
   {
-    image: "/images/gallery/43.jpg",
+    image: "/images/gallery/program/10.jpg",
   },
   {
-    image: "/images/gallery/44.jpg",
+    image: "/images/gallery/program/11.jpg",
+  },
+  {
+    image: "/images/gallery/program/12.jpg",
+  },
+  {
+    image: "/images/gallery/program/13.jpg",
+  },
+  {
+    image: "/images/gallery/program/14.jpg",
+  },
+];
+
+export const FunTime = [
+  {
+    image: "/images/gallery/fun-time/1.jpg",
+  },
+  {
+    image: "/images/gallery/fun-time/2.jpg",
+  },
+  {
+    image: "/images/gallery/fun-time/3.jpg",
+  },
+  {
+    image: "/images/gallery/fun-time/4.jpg",
   },
 ];
