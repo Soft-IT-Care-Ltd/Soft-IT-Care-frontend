@@ -8,9 +8,6 @@ export const OfficeActivities = [
     image: "/images/gallery/office-activities/2.jpg",
   },
   {
-    image: "/images/gallery/office-activities/3.jpg",
-  },
-  {
     image: "/images/gallery/office-activities/4.jpg",
   },
   {
@@ -69,9 +66,6 @@ export const AnnulTour = [
   },
   {
     image: "/images/gallery/annual-tour/3.jpg",
-  },
-  {
-    image: "/images/gallery/annual-tour/4.jpg",
   },
 ];
 
