@@ -125,7 +125,7 @@ const Footer = () => {
           <Row>
             <Col lg={12}>
               <p>
-              Copyright &copy; 2016 - {currentYear} Soft IT Care. All Rights Reserved. Soft IT Care™ is a registered trademark.
+              Copyright &copy; 2016 - {currentYear} Soft IT Care. All rights reserved. Soft IT Care™ is a registered trademark.
               </p>
             </Col>
           </Row>
