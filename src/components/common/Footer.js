@@ -26,16 +26,16 @@ const Footer = () => {
                 </div>
                 <h4>Follow us</h4>
                 <div className="social__icons">
-                  <Link href="https://www.facebook.com/softitcare">
+                  <Link href="https://www.facebook.com/softitcare" target="_blank">
                     <Facebook />
                   </Link>
-                  <Link href="https://twitter.com/SoftITCare">
+                  <Link href="https://twitter.com/SoftITCare" target="_blank">
                     <Twitter />
                   </Link>
-                  <Link href="https://instagram.com/softitcare_com">
+                  <Link href="https://instagram.com/softitcare_com" target="_blank">
                     <Instagram />
                   </Link>
-                  <Link href="https://www.linkedin.com/company/softitcarebd">
+                  <Link href="https://www.linkedin.com/company/softitcarebd" target="_blank">
                     <Linkdin />
                   </Link>
                 </div>
