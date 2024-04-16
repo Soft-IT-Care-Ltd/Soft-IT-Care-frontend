@@ -11,8 +11,8 @@ const NextJourny = () => {
             <Col lg={12}>
               <div className="next__journy__content">
                 <h2>
-                  Want To Be Ready for The Next Journey With
-                  <span>Soft IT Care</span> ?
+                  Want To Be Ready For The Next Journey With
+                  <span> Soft IT Care</span> ?
                 </h2>
                 <Button btnLink="#" btnName="Read More" />
               </div>

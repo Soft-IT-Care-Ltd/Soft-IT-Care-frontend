@@ -11,26 +11,32 @@ const menuItem = [
     {
         name: "Home",
         url: "/",
+        target: "home",
     },
     {
         name: "About Us",
-        url: "#about",
+        url: "#about-us",
+        target: "about-us",
     },
     {
-        name: "Our Associates",
-        url: "#sister-concern",
+        name: "Our Ventures",
+        url: "#our-ventures",
+        target: "our-ventures",
     },
     {
         name: "Life at SITC",
-        url: "#life-sitc",
+        url: "#life-at-sitc",
+        target: "life-at-sitc",
     },
     {
         name: "Careers",
         url: "#career",
+        target: "career",
     },
     {
-        name: "Contact",
-        url: "#contact",
+        name: "Contact Us",
+        url: "#contact-us",
+        target: "contact-us",
     },
 ];
 
@@ -41,6 +47,13 @@ const Menubar = () => {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    const handleClick = (target) => {
+        const element = document.getElementById(target);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+        handleClose();
+    };
 
     return (
         <>
@@ -94,6 +107,7 @@ const Menubar = () => {
                                                             className={
                                                                 router.pathname == item.url ? "active" : ""
                                                             }
+                                                            onClick={() => handleClick(item.target)} 
                                                         >
                                                             {item.name}
                                                         </Link>

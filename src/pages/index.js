@@ -16,6 +16,7 @@ export default function Home() {
       ======================================== */}
       <Banner />
 
+      <div id="about-us"></div>
       <div className="section__gaps"></div>
       {/*  ===================================
       About 
@@ -26,7 +27,7 @@ export default function Home() {
       {/*  ===================================
       Expricence 
       ======================================== */}
-      <Expricence />
+      <Expricence id="expricence" />
 
       <div className="section__gaps"></div>
       {/*  ===================================
@@ -37,6 +38,8 @@ export default function Home() {
       {/*  ===================================
       HomeGallery 
       ======================================== */}
+      <div id="life-at-sitc"></div>
+      <div className="section__gaps"></div>
       <HomeGallery />
 
       <div className="section__gaps"></div>
@@ -44,15 +47,15 @@ export default function Home() {
       WhyCustomer 
       ======================================== */}
       <WhyCustomer />
-
+      <div id="career"></div>
       <div className="section__gaps"></div>
       {/*  ===================================
       NextJourny 
       ======================================== */}
 
-      <NextJourny />
-
+      <NextJourny id="next-journey" />
       <div className="section__gaps"></div>
+      <div id="contact-us"></div>
     </>
   );
 }

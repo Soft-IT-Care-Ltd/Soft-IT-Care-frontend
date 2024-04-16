@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const AboutUs = () => {
   return (
     <>
-      <section id="#about" className="home__about">
+      <section id="about" className="home__about">
         <Container>
           <Row className="d_flex">
             {/* img */}

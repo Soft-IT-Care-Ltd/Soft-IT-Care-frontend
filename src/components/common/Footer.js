@@ -12,7 +12,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import { BsArrowReturnRight } from "react-icons/bs";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
+    
     <>
       <section className="footer">
         <Container>
@@ -123,8 +125,7 @@ const Footer = () => {
           <Row>
             <Col lg={12}>
               <p>
-                © Copyright 2016 - 2023 All Rights Reserved | Designed by
-                <Link href="">Soft IT Care</Link> Development Team
+              Copyright &copy; 2016 - {currentYear} Soft IT Care. All Rights Reserved. Soft IT Care™ is a registered trademark.
               </p>
             </Col>
           </Row>

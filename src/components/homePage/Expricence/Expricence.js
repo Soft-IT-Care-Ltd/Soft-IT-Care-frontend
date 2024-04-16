@@ -13,8 +13,8 @@ const Expricence = () => {
               <div className="home__exprience__content">
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>100+</h4>
-                  <p>Employees</p>
+                  <h4>55+</h4>
+                  <p>Team Members</p>
                 </div>
                 <div className="home__exprience__item__bdr">
                   <img src="/images/shaps/bdr.png" alt="bdr" />
@@ -22,22 +22,22 @@ const Expricence = () => {
                 {/* item */}
                 <div className="home__exprience__item">
                   <h4>3</h4>
-                  <p>Office</p>
+                  <p>Offices</p>
                 </div>
                 <div className="home__exprience__item__bdr">
                   <img src="/images/shaps/bdr.png" alt="bdr" />
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>4 +</h4>
-                  <p>Experience</p>
+                  <h4>5 + </h4>
+                  <p>Years Experience</p>
                 </div>
                 <div className="home__exprience__item__bdr">
                   <img src="/images/shaps/bdr.png" alt="bdr" />
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>7000</h4>
+                  <h4>7000+</h4>
                   <p>Happy Clients</p>
                 </div>
                 <div className="home__exprience__item__bdr">
@@ -45,8 +45,8 @@ const Expricence = () => {
                 </div>
                 {/* item */}
                 <div className="home__exprience__item">
-                  <h4>50</h4>
-                  <p>Team Members</p>
+                  <h4>4</h4>
+                  <p>Associate Ventures</p>
                 </div>
               </div>
             </Col>

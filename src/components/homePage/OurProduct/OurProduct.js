@@ -39,11 +39,11 @@ const OurProduct = () => {
             </Col>
           </Row>
         </Container>
-
-        <div className="section__gaps"></div>
-        {/*  ===================================
+{/*  ===================================
       OurProduct 
       ======================================== */}
+        <div id="our-ventures"></div>
+        <div id="our-ventures"className="section__gaps"></div>
         <OurVentures />
       </section>
     </>

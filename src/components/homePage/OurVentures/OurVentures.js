@@ -7,7 +7,7 @@ import Button from "@/components/common/Button";
 const OurVentures = () => {
   return (
     <>
-      <section className="home__our__ventures">
+      <section id="our-ventures" className="home__our__ventures">
         <Container>
           <div className="home__our__ventures__content__overlay">
             <img src="/images/shaps/shap1.png" alt="shap1" />
