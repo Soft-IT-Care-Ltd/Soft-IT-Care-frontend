@@ -107,8 +107,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <p>
-                          <Location /> House No # 17, Road No # 8/A, Nikunja #1,
-                          Dhaka - 1229, Bangladesh
+                          <Location /> DOM INNO House - Level-5, House: 13 Road No.7, Block-F, Banani, Dhaka 1213, Bangladesh
                         </p>
                       </li>
                     </ul>
