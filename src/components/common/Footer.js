@@ -107,7 +107,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <p>
-                          <Location /> DOM INNO House - Level-5, House: 13 Road No.7, Block-F, Banani, Dhaka 1213, Bangladesh
+                          <Location /> DOM INNO House (Level-5), House: 13, Road-07, Block-F, Banani, Dhaka-1213, Bangladesh
                         </p>
                       </li>
                     </ul>
@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </Container>
       </section>
-
+      
       <section className="tiny__footer">
         <Container>
           <Row>
